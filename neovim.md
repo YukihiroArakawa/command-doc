@@ -30,23 +30,30 @@ $ exec zsh
 - コメントの挿入
   - 先頭に  :norm I# (ノーマルモードでインサート#)
   - 行末    :norm A# 
-
 - コンフィグ設定
   - vim ~/.config/nvim/init.vim
+- バッファの移動: [b or ]b
+- バッファのリスト: ls
 
 ## Vimのプラグイン
 - vim-plug入れればOK https://github.com/junegunn/vim-plug
 - :PlugInstallでプラグインをインストールできる
+
+## NerdTree
 - nerd tree, ツリー表示をterminalの横っちょに出すプラグイン
   - :NERDTreeでツリーに入る, 
   - ctrl + w + wで開いたファイルからツリーに戻る
   - :qで戻る
+
+## FizzyFinder
 - FizzyFinder
   - ファイルを高速に検索するプラグイン
   - https://github.com/junegunn/fzf 
   - terminalからfzfで実行して検索できる
   - nvimの場合は:FZFで呼び出せる
   - カレントディレクトリ以下を検索することに注意
+
+## その他プラグイン
 - vim-fugitive: gitをnvimから使えるようにするプラグイン
   - https://github.com/tpope/vim-fugitive
   - installation
