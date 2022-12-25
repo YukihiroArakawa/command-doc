@@ -1,8 +1,8 @@
 # NeoVim
 - configの場所は ~/.config/nvim/init.vim
 - 起動コマンド: nvim
+- 検索にマッチした数: :%s/hoge//gn
 - vi, vimを起動してもnvimが起動するように設定すると便利
-
 ```
 $ vim ~/.zshrc
 
